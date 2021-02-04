@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.first{
+    background-color:lightcyan;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 600px;
+    padding-bottom:80px;
+    font-weight:bold;
+
+}
+.second{
+    height: 720px;
+    padding: 120px 80px 0 80px;
+    font-size:35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.polos{
+    width:205px;
+    background-color: red;
+    height: 3px;
+    margin-top: 20px;
+}
+.image{
+    float: right;
+}
+.third{
+    height: 400px;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 300px;
+}
+#secondScroll{
+    font-size: 50px;
+    font-weight: bold;
+}
